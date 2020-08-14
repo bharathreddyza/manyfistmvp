@@ -46,85 +46,85 @@ https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-characte
     camera.position.x = 0;
     camera.position.y = -3;
 
-    //--------------------------------HEAD---------------------------
-    let bharath_head = new THREE.TextureLoader().load("./assets/head3d.jpg");
-    bharath_head.flipY = false;
+    // //--------------------------------HEAD---------------------------
+    // let bharath_head = new THREE.TextureLoader().load("./assets/head3d.jpg");
+    // bharath_head.flipY = false;
 
-    const bharath_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_head,
-      // color: 0xffffff,
-      // skinning: true,
-    });
-    //--------------------------------ACCESSORIES---------------------------
+    // const bharath_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_head,
+    //   // color: 0xffffff,
+    //   // skinning: true,
+    // });
+    // //--------------------------------ACCESSORIES---------------------------
 
-    let bharath_accessory = new THREE.TextureLoader().load(
-      "male_accessory_cos_Djmale_d__spec_baseColor.png"
-    );
-    bharath_accessory.flipY = false;
+    // let bharath_accessory = new THREE.TextureLoader().load(
+    //   "male_accessory_cos_Djmale_d__spec_baseColor.png"
+    // );
+    // bharath_accessory.flipY = false;
 
-    const bharathA_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_accessory,
-      // color: 0xffffff,
-      // skinning: true,
-    });
-    //--------------------------------SKIN---------------------------
+    // const bharathA_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_accessory,
+    //   // color: 0xffffff,
+    //   // skinning: true,
+    // });
+    // //--------------------------------SKIN---------------------------
 
-    let bharath_skin = new THREE.TextureLoader().load(
-      "male_body_D__spec_baseColor.png"
-    );
-    bharath_skin.flipY = false;
+    // let bharath_skin = new THREE.TextureLoader().load(
+    //   "male_body_D__spec_baseColor.png"
+    // );
+    // bharath_skin.flipY = false;
 
-    const bharathS_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_skin,
-      color: 0xffffff,
-      skinning: true,
-    });
+    // const bharathS_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_skin,
+    //   color: 0xffffff,
+    //   skinning: true,
+    // });
 
-    //--------------------------------SUIT---------------------------
-    let bharath_suit = new THREE.TextureLoader().load(
-      "male_bottom_cos_Djmale_d__spec_baseColor.png"
-    );
-    bharath_suit.flipY = false;
+    // //--------------------------------SUIT---------------------------
+    // let bharath_suit = new THREE.TextureLoader().load(
+    //   "male_bottom_cos_Djmale_d__spec_baseColor.png"
+    // );
+    // bharath_suit.flipY = false;
 
-    const bharathSuit_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_suit,
-      color: 0xffffff,
-      skinning: true,
-    });
-    //--------------------------------hair---------------------------
-    let bharath_hair = new THREE.TextureLoader().load(
-      "male_hair_cos_Djmale_d__spec_baseColor.png"
-    );
-    bharath_suit.flipY = false;
+    // const bharathSuit_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_suit,
+    //   color: 0xffffff,
+    //   skinning: true,
+    // });
+    // //--------------------------------hair---------------------------
+    // let bharath_hair = new THREE.TextureLoader().load(
+    //   "male_hair_cos_Djmale_d__spec_baseColor.png"
+    // );
+    // bharath_suit.flipY = false;
 
-    const bharathHair_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_hair,
-      color: 0xffffff,
-      skinning: true,
-    });
-    //--------------------------------shoes---------------------------
-    let bharath_shoes = new THREE.TextureLoader().load(
-      "male_shoe_cos_Djmale_d__spec_baseColor.png"
-    );
-    bharath_shoes.flipY = false;
+    // const bharathHair_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_hair,
+    //   color: 0xffffff,
+    //   skinning: true,
+    // });
+    // //--------------------------------shoes---------------------------
+    // let bharath_shoes = new THREE.TextureLoader().load(
+    //   "male_shoe_cos_Djmale_d__spec_baseColor.png"
+    // );
+    // bharath_shoes.flipY = false;
 
-    const bharathShoes_mtl = new THREE.MeshPhongMaterial({
-      map: bharath_shoes,
-      color: 0xffffff,
-      skinning: true,
-    });
+    // const bharathShoes_mtl = new THREE.MeshPhongMaterial({
+    //   map: bharath_shoes,
+    //   color: 0xffffff,
+    //   skinning: true,
+    // });
 
-    //--------------------------------ARMOR---------------------------
-    let bharath_armor = new THREE.TextureLoader().load(
-      "male_top_cos_Djmale_d__spec_baseColor.png"
-    );
-    bharath_armor.flipY = false;
+    // //--------------------------------ARMOR---------------------------
+    // let bharath_armor = new THREE.TextureLoader().load(
+    //   "male_top_cos_Djmale_d__spec_baseColor.png"
+    // );
+    // bharath_armor.flipY = false;
 
-    const bharathArmor_mtl = new THREE.MeshBasicMaterial({
-      map: bharath_armor,
-      color: 0xffffff,
-      skinning: true,
-    });
+    // const bharathArmor_mtl = new THREE.MeshBasicMaterial({
+    //   map: bharath_armor,
+    //   color: 0xffffff,
+    //   skinning: true,
+    // });
 
     /////////////////////////////////////////
     var loader = new THREE.GLTFLoader();
