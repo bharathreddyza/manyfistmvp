@@ -46,7 +46,7 @@ https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-characte
     camera.position.x = 0;
     camera.position.y = -3;
 
-    // //--------------------------------HEAD---------------------------
+    //--------------------------------HEAD---------------------------
     // let bharath_head = new THREE.TextureLoader().load("head3d.jpg");
     // bharath_head.flipY = false;
 
