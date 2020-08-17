@@ -42,7 +42,7 @@ input[type="submit"] {
   background-color: #614ce6;
   border: solid #614ce6;
   color: white;
-  margin-left: -80px;
+  /* margin-left: -80px; */
 }
 
 ::selection {
